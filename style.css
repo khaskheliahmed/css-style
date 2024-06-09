@@ -4,18 +4,19 @@
     box-sizing: border-box;
 }
 .container{
-  border: 1px solid black;
+  border: 3px solid black;
   margin: 20px;
   height: 400px;
   display: flex;
   /* flex-direction: column; */
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   gap: 50px;
+  border-radius: 3px;
   
 }
 .box{
-    border: 1px solid red;
+    border: 3px solid red;
     padding: 20px;
 }
 
